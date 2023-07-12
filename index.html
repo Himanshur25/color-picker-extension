@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div
+      style="
+        width: 300px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+      "
+      class="backgroundColor"
+    >
+      <h3 style="font-size: 25px; color: #fff; mix-blend-mode: difference">
+        Choose the color
+      </h3>
+      <button
+        style="
+          padding: 10px;
+          color: aliceblue;
+          background: #000;
+          border-radius: 20px;
+          cursor: pointer;
+        "
+        class="changeColorBtn"
+      >
+        Pick Color
+      </button>
+      <div
+        class="selectedColor"
+        style="display: flex; align-items: center; margin-top: 20px"
+      ></div>
+      <span
+        class="colorGrid"
+        style="
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          border-radius: 2px;
+        "
+      ></span>
+      <span></span>
+      <span
+        class="colorValue"
+        style="
+          margin-left: 5px;
+          font-weight: bold;
+          color: #fff;
+          mix-blend-mode: difference;
+        "
+      ></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "ColorPicker Extension",
+  "description": "Just Pick Color from any area",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "128": "color.png"
+  }
+}
